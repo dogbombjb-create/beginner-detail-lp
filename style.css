@@ -1232,10 +1232,16 @@ footer {
   .pc-only {
     display: inline;
   }
+  .sp-only {
+    display: none;
+  }
 }
 @media (max-width: 899px) {
   .pc-only {
     display: none;
+  }
+  .sp-only {
+    display: inline;
   }
 }
 
