@@ -1545,3 +1545,28 @@ body {
     margin-bottom: 40px;
   }
 }
+
+/* =========================================
+   CURRICULUM Video Section
+   ========================================= */
+.curriculum-video-wrapper {
+  margin: 0 auto 50px;
+  max-width: 640px; /* PCで横に広がりすぎないように制限 */
+  width: 100%;
+  padding: 0 10px; /* スマホ時の両端マージン確保 */
+}
+.video-container-169 {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #000;
+}
+.video-container-169 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
