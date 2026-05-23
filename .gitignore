@@ -1,0 +1,14 @@
+# Temporary scripts
+_tmp*
+_find*
+_edit*
+_fix*
+_peek*
+_rewrite*
+_show*
+_view*
+_check.py
+
+# Extracted PDF contents and logs
+pdf_contents*
+*.log
