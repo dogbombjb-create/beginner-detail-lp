@@ -1480,7 +1480,7 @@ body {
    ========================================= */
 .entry-visual-wrap {
   width: 100%;
-  max-width: 320px;
+  max-width: 440px; /* 集合写真用に幅を少し拡大 */
   margin: 0 auto 30px;
   overflow: hidden;
   border-radius: 4px;
@@ -1488,7 +1488,7 @@ body {
 }
 .entry-img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 10; /* 横長比率に調整 */
   object-fit: cover;
   transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
@@ -1535,7 +1535,7 @@ body {
   }
   
   .entry-visual-wrap {
-    max-width: 360px;
+    max-width: 540px; /* PCで集合写真が映える広さに調整 */
     margin-bottom: 40px;
   }
 }
