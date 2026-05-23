@@ -1,11 +1,11 @@
-﻿const imageConfig = {
+const imageConfig = {
   hero: {
     src: "images/hero1.jpg",
     alt: "シュガーフラワーブーケと静かな時間",
   },
   teacher: {
-    src: "images/5teacher_hirakawa.jpg",
-    alt: "講師 平川かな",
+    src: "images/3teacher_hirakawa.jpg",
+    alt: "講師 平川かなえ",
   },
   sample: {
     src: "images/sample_flowers.jpg",
